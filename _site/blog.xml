@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>A site template</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Blog Two</title>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 04 Feb 2024 00:00:00 -0500</pubDate>
+				<link>http://aggregation.apievangelist.com/2024/02/04/blog-two/</link>
+				<guid isPermaLink="true">http://aggregation.apievangelists.com/2024/02/04/blog-two/</guid>
+			</item>
+		
+			<item>
+				<title>Blog Three</title>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 04 Feb 2024 00:00:00 -0500</pubDate>
+				<link>http://aggregation.apievangelist.com/2024/02/04/blog-three/</link>
+				<guid isPermaLink="true">http://aggregation.apievangelists.com/2024/02/04/blog-three/</guid>
+			</item>
+		
+			<item>
+				<title>Blog One</title>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 04 Feb 2024 00:00:00 -0500</pubDate>
+				<link>http://aggregation.apievangelist.com/2024/02/04/blog-one/</link>
+				<guid isPermaLink="true">http://aggregation.apievangelists.com/2024/02/04/blog-one/</guid>
+			</item>
+		
+			<item>
+				<title>Blog Four</title>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 04 Feb 2024 00:00:00 -0500</pubDate>
+				<link>http://aggregation.apievangelist.com/2024/02/04/blog-four/</link>
+				<guid isPermaLink="true">http://aggregation.apievangelists.com/2024/02/04/blog-four/</guid>
+			</item>
+		
+	</channel>
+</rss>

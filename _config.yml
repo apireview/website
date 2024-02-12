@@ -1,0 +1,30 @@
+title: API Review Shop
+url: https://api.review.shop
+
+permalink: /:categories/:year/:month/:day/:title/
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+github_org: api-review-shop
+github_repo: website
+
+paginate:           25
+paginate_path:      "/blog/:num/"
+
+collections:
+  criteria:
+    output:         true
+
+defaults:
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+  - scope:
+      path:         ""
+      type:         criteria
+    values:
+      layout:       criteria
