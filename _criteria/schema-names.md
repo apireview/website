@@ -1,6 +1,4 @@
 ---
-published: true
-layout: post
 title: 'Schema Names'
 image: /images/info-title.png
 tags:

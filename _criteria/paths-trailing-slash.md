@@ -1,6 +1,4 @@
 ---
-published: true
-layout: post
 title: 'Paths Trailing Slash'
 image: /images/info-title.png
 tags:
