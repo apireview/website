@@ -17,10 +17,11 @@
                       <li class="current-active active">
                         <a class="maso-filter-auto" data-filter="maso-item">All</a>
                       </li>
-                      <li><a data-filter="Info">Info</a></li>
-                      <li><a data-filter="Paths">Paths</a></li>
-                      <li><a data-filter="Responses">Responses</a></li>
-                      <li><a data-filter="Schema">Schema</a></li>
+
+                      {% for nav in site.criteria_nav %}      
+                        <li><a data-filter="{{ nav }}">{{ nav }}</a></li>
+                      {% endfor %}  
+
                       <li>
                         <a class="maso-order maso-filter-auto" data-sort="asc">
                           <i class="fa fa-arrow-down"></i>
@@ -62,19 +63,17 @@
             <div class="col-md-12 hc_subtitle_cnt">
               <div class="title-base     text-left" id="p2E9r">
                 <hr>
-                <h2>Criteria </h2>
-                <p>These are the things we are looking for as we conduct our design reviews, ensuring your APIs reflect what developers are needing when it comes to onboarding, integrating, and putting your APIs to work.</p>
-              </div>
+                <h2>{{ site.criteria_title }}</h2>
+                <p>{{ site.criteria_desc }}</p>
+              </div> 
             </div>
             <div class="col-md-12 hc_icon_list_simple_cnt">
               <ul id="AHd88" class="ul-squares no-icons  text-left" style=" list-style: square">
-                <li><i class="fa-li"></i> Info</li>
-                <li><i class="fa-li"></i> Paths</li>
-                <li><i class="fa-li"></i> Operations</li>
-                <li><i class="fa-li"></i> Request Bodies</li>
-                <li><i class="fa-li"></i> Parameters</li>
-                <li><i class="fa-li"></i> Responses</li>
-                <li><i class="fa-li"></i> Schema</li>
+                
+                {% for feature in site.criteria_features %}
+                  <li><i class="fa-li"></i> {{ feature }}</li>
+                {% endfor %}    
+
               </ul>
             </div>
             <div class="col-md-12 hc_space_cnt">

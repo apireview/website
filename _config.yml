@@ -16,6 +16,8 @@ paginate_path:      "/blog/:num/"
 collections:
   criteria:
     output:         true
+  reports:
+    output:         true    
 
 defaults:
   - scope:
@@ -23,3 +25,126 @@ defaults:
       type:         criteria
     values:
       layout:       criteria
+  - scope:
+      path:         ""
+      type:         reports
+    values:
+      layout:       reports      
+
+# Business
+business_title: 'The Business'
+business_body_1: 'As part of our review we consider the business value being offered by your API, considering what the overall narrative is for your API, helping reduce the time it takes your API consumers to get up to speed.'
+business_body_2: 'It is common for API producers to be so close to problem as well as the solution and overlook what is needed to get consumers what they need in as little time as possible.'
+business_body_3: 'Sometimes a fresh pair of trained eyes can help see what is needed to improve the usability of your APIs.'
+
+business_title_one: Descriptions
+business_desc_one: The name, description, tags, and other metadata about your API.
+
+business_title_two: Who?
+business_desc_two: Help you consider who will be using your API and what they will need.
+
+business_title_three: What
+business_desc_three: Thinking through what people will be doing when using your API.
+
+business_title_four: Tags
+business_desc_four: Considering how you will organize and discover your APIs using tags.
+
+business_title_five: Change
+business_desc_five: We evaluate how you are managing change across your APIs.
+
+business_title_six: Narrative
+business_desc_six: Ensuring your API tells a story and possesses a compelling narrative
+
+# Technical
+technical_title: 'The Technical'
+technical_body_1: 'We enjoy looking at the technical details of your APIs and understand how they size up against the competition, evaluating the path, parameters, request bodies, responses, and other elements.'
+
+technical_bullet_1: Simple
+technical_bullet_2: Consistent
+technical_bullet_3: Intuitive
+
+technical_title_one: Paths
+technical_desc_one: Provide RESTful guidance regarding naming and structure of paths.
+
+technical_title_two: Methods
+technical_desc_two: Offer advice regarding how to use your nouns and verbs wisely.
+
+technical_title_three: Operations
+technical_desc_three: Assist in making sure each API operation is as intuitive as possible.
+
+technical_title_four: Parameters
+technical_desc_four: Consider your path, query, and header parameters in our evaluation.
+
+technical_title_five: Responses
+technical_desc_five: Ensure that you are standardized across all of your API responses.
+
+technical_title_six: Schema
+technical_desc_six: Help you standardize the schema you are using in requests and responses.
+
+criteria_title: Criteria
+criteria_desc: These are the things we are looking for as we conduct our design reviews, ensuring your APIs reflect what developers are needing when it comes to onboarding, integrating, and putting your APIs to work.
+
+criteria_features:
+
+  - Info
+  - Paths
+  - Operations
+  - Request Bodies
+  - Parameters
+  - Responses
+  - Schema
+
+criteria_nav:
+
+  - Info
+  - Paths
+  - Responses
+  - Schema  
+
+report_title: Example Reviews
+report_desc: These are a handful of example reviews we have done on public APIs, helping demonstrate what we are looking at when we review any API.
+
+report_features:
+
+  - OpenAI
+  - Twilio
+  - Stripe
+
+report_nav:
+
+  - OpenAI
+  - Twilio
+  - Stripe 
+
+reviewers_title: API Reviewers
+reviewers_body_one: We have the API design talent that you have been looking for--available on demand, as you need it.
+reviewers_body_two: You don't have time to get all your teams up to speed when it comes to API design, and can lean on our team as your core source of design talent, or as an overflow and second pair of eyes. 
+
+reviewer_name_one: Nick
+reviewer_logo_one: /images/nick.png
+reviewer_title_one: API Designer
+reviewer_desc_one: Nick is all about simple REST APIs, and the impact it can have they have when done well.
+
+reviewer_name_two: Jerry
+reviewer_logo_two: /images/jerry-1.jpg
+reviewer_title_two: API Architect
+reviewer_desc_two: Jerry is our old XML guy, who we have converted to the modern JSON way of doing things.
+
+reviewer_name_three: Jon
+reviewer_logo_three: /images/jon.png
+reviewer_title_three: API Designer
+reviewer_desc_three: Jon is looking for the story in your API, making sure it is as intuitive as it possibly can.
+
+review_title: Get Your Review
+review_body_one: Getting a review for your API is simple, just tell us a little about you, and submit the form with your OpenAPI--here are the steps.
+review_body_two: We are low-tech here, contrasting the AI groundswell, focusing on doing one thing well, and standardizing your API operations today.
+review_steps:
+
+- You Submit Form
+- We Receive Email
+- We Get You Quote
+- You Accept Quote
+- We Do the Review
+- We Invoice You
+- You Pay Invoice
+- We Publish Report

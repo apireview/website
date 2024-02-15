@@ -31,7 +31,7 @@ style="visibility: hidden; z-index: -100; position: fixed; top: -1093px; left: 0
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="#"
-                style="display: block;">API Review Shop</a>
+                style="display: block;">{{ site.title }}</a>
             </div>
             <div class="collapse navbar-collapse" style="display: block; opacity: 1;">
             <ul id="hc-inner-menu" class="nav navbar-nav  one-page-menu"></ul>
@@ -54,6 +54,8 @@ style="visibility: hidden; z-index: -100; position: fixed; top: -1093px; left: 0
     {% include reviewers.html %}
 
     {% include criteria.html %}
+
+    {% include reports.html %}
 
     {% include review-form.html %}
     
