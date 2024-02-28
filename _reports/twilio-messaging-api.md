@@ -1,7 +1,11 @@
 ---
-title: 'Twilio Messaging API Review'
-image: /images/twilio-messaging-api.png
+title: 'Twilio Messaging API'
+image: /images/twilio-messaging-api-screen.png
+pdf: /pdf/twilio-messaging-api-review.pdf
 tags:
-- Schema
+- Twilio
+- Messaging
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<object data="{{ page.pdf }}" type="application/pdf" width="100%" height="500px">
+    <p>Unable to display PDF file. <a href="{{ page.pdf }}">Download</a> instead.</p>
+</object>

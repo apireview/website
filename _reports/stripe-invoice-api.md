@@ -1,7 +1,11 @@
 ---
-title: 'Stripe Invoice API Review'
-image: /images/stripe-post-update.png
+title: 'Stripe Invoice API'
+image: /images/stripe-invoice-api-screen.png
+pdf: /pdf/stripe-invoice-api-review.pdf
 tags:
-- Paths
+- Stripe
+- Invoices
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<object data="{{ page.pdf }}" type="application/pdf" width="100%" height="500px">
+    <p>Unable to display PDF file. <a href="{{ page.pdf }}">Download</a> instead.</p>
+</object>
