@@ -106,13 +106,11 @@ report_desc: These are a handful of example reviews we have done on public APIs,
 
 report_features:
 
-  - OpenAI
   - Twilio
   - Stripe
 
 report_nav:
 
-  - OpenAI
   - Twilio
   - Stripe 
 
