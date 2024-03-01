@@ -73,12 +73,12 @@ style="visibility: hidden; z-index: -100; position: fixed; top: -1093px; left: 0
                             class="fa fa-angle-down"></i></div>
                         <div class="collapse navbar-collapse" style="display: block; opacity: 1;">
                           <ul id="hc-inner-menu" class="nav navbar-nav inner  ">
-                            <li class="current-active active"><a href="#home">Home</a></li>
-                            <li class=""><a href="#business">Business</a></li>
-                            <li class=""><a href="#technical">Technical</a></li>
-                            <li class=""><a href="#reviewers">Reviewers</a></li>
-                            <li class=""><a href="#knowledge">Knowledge</a></li>
-                            <li class=""><a href="#review">Review</a></li>
+                            <li><a href="../../#home">Home</a></li>
+                            <li class=""><a href="../../#business">Business</a></li>
+                            <li class=""><a href="../../#technical">Technical</a></li>
+                            <li class=""><a href="../../#reviewers">Reviewers</a></li>
+                            <li class="current-active active"><a href="../../#knowledge">Knowledge</a></li>
+                            <li class=""><a href="../../#review">Review</a></li>
                           </ul>
                         </div>
                       </div>
@@ -156,8 +156,7 @@ style="visibility: hidden; z-index: -100; position: fixed; top: -1093px; left: 0
               </div>
               <div class="maso-box row" style="position: relative; height: 1053px;">
                 
-
-                {% for criteria in site.criteria limit:4 %}      
+                {% for criteria in site.criteria %}      
                 <div data-sort="0" class="maso-item col-md-6  {{ criteria.tags }}" style="position: absolute; left: 0%; top: 0px; visibility: visible;">
                   <div class="advs-box advs-box-top-icon-img boxed" style="visibility: visible; opacity: 1;">
                     <a class="img-box img-scale-up" href="{{ criteria.url }}" style="opacity: 1;">
@@ -202,14 +201,6 @@ style="visibility: hidden; z-index: -100; position: fixed; top: -1093px; left: 0
               <li><i class="fa-li"></i> Responses</li>
               <li><i class="fa-li"></i> Schema</li>
             </ul>
-          </div>
-          <div class="col-md-12 hc_space_cnt">
-            <hr class="space l">
-          </div>
-          <div class="col-md-12 hc_button_cnt">
-            <div id="TS4qI" class="button-cnt" style="display: block; text-align:left">
-              <a class="btn btn-sm scroll-to  visible" href="criteria/">All Criteria</a>
-            </div>
           </div>
         </div>
       </div>

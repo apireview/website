@@ -4,4 +4,9 @@ image: /images/info-title.png
 tags:
 - Info
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p><img src="{{ page.image }}" width="35%" align="left" style="padding: 15px;"></p>
+The title of your API, which is defined using the OpenAPI info object is your chance to make a first impression on your API consumers when they discovery your API. 
+
+Naming is always difficult, but it is worth the effort to properly name your API, and avoid using acronyms and other uncommon words or phrases your consumer may not know.
+
+We look at the title for your API in the same way we would for a blog post, news article, or white paper--it should tell a story and leave you wanting to know more.
