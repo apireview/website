@@ -6,7 +6,7 @@ tags:
 - Twilio
 - Messaging
 ---
-This is an example report conducted on the Twilio Messaging API, showing what you can expect to see for your API when you submit your OpenAPI for a review today.
+This is an example report conducted on the [Twilio Messaging API](https://www.twilio.com/docs/messaging/api), showing what you can expect to see for your API when you submit your OpenAPI for a review today.
 <object data="{{ page.pdf }}" type="application/pdf" width="100%" height="1000px">
     <p>Unable to display PDF file. <a href="{{ page.pdf }}">Download</a> instead.</p>
 </object>

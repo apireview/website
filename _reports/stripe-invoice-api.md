@@ -6,7 +6,7 @@ tags:
 - Stripe
 - Invoices
 ---
-This is an example report conducted on the Stripe Invoice API, showing what you can expect to see for your API when you submit your OpenAPI for a review today.
+This is an example report conducted on the [Stripe Invoice API](https://docs.stripe.com/api/invoices), showing what you can expect to see for your API when you submit your OpenAPI for a review today.
 <object data="{{ page.pdf }}" type="application/pdf" width="100%" height="1000px">
     <p>Unable to display PDF file. <a href="{{ page.pdf }}">Download</a> instead.</p>
 </object>

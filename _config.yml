@@ -33,24 +33,24 @@ defaults:
 
 # Business
 business_title: 'The Business'
-business_body_1: 'As part of our review, we consider the business value being provided by your API and considering what the overall narrative is for your API, helping reduce the time it takes your API consumers to get up to speed on what it does.'
-business_body_2: 'It is common for API producers to be too close to problem as well as the solution and will often overlook what is needed to get consumers what they need to onboard with an API, and begin using in applications.'
+business_body_1: 'As part of our review, we consider the business value being provided by your API and think about what the overall narrative is for your APIs, helping reduce the time it takes for your API consumers to get up to speed on what your API does.'
+business_body_2: 'It is common for API producers to be too close to problem as well as the solution and they often overlook what is needed to get consumers what they need when it comes to onboarding with an API, and begin using in applications.'
 business_body_3: 'Sometimes a fresh pair of trained eyes can help see what is needed to improve the usability of your APIs.'
 
 business_title_one: Descriptions
-business_desc_one: The name, description, tags, and other metadata about your API.
+business_desc_one: The name, description, tags, and other metadata exist for your API.
 
 business_title_two: Who?
 business_desc_two: Help you consider who will be using your API and what they will need.
 
 business_title_three: What
-business_desc_three: Thinking through what people will be doing when using your API.
+business_desc_three: Thinking through what people will be doing when integrating with your API.
 
 business_title_four: Tags
 business_desc_four: Considering how you will organize and discover your APIs using tags.
 
 business_title_five: Change
-business_desc_five: We evaluate how you are managing change across your APIs.
+business_desc_five: We evaluate how you are managing change across your all of your APIs.
 
 business_title_six: Narrative
 business_desc_six: Ensuring your API tells a story and offers up a compelling narrative
@@ -135,20 +135,20 @@ reviewer_title_three: API Designer
 reviewer_desc_three: Jon is looking for the story in your API, making sure it is as intuitive as it possibly can.
 
 review_title: Get Your Review
-review_body_one: Getting a review for your API is simple, just tell us a little about you, and submit the form with your OpenAPI--here are the steps.
+review_body_one: Getting a review for your API is simple, just tell us a little about you, and submit the form with your OpenAPI--here is what you can expect.
 review_body_two: We are low-tech here, in an effort to contrast the Artificial Intelligence (AI) groundswell, focusing on doing one thing well, and helping standardize your API operations today.
 review_steps:
 
 - You Submit Form On This Website
 - We Receive An Email From You
 - We Get You A Quote For the Review
-- You Accept the Quote From Us
+- You Accept the Review Quote From Us
 - We Conduct the Review of Your API
-- We Send An Invoice To You
-- You Pay The Invoice We Sent
+- We Send An Invoice To You via Email
+- You Pay The Invoice We Sent to You
 - We Publish YAML Report to Private GitHub Repository
 - We Publish Markdown Report to Private GitHub Repository
 - We Add You to the Private GitHub Repository
-- You Request the Review of More APIs
-- Private Repo Acts As Private Catalog of Reviews
-- We Help You Standardize Across All APIs
+- You Request the Review of More of Your APIs
+- Your Private Repo Acts As Private Catalog of Reviews
+- We Help You Standardize Across All of Your APIs
